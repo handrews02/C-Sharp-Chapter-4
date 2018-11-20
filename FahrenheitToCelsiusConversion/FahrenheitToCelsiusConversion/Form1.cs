@@ -49,7 +49,7 @@ namespace FahrenheitToCelsiusConversion
             }
             if (conversion2 > 32)
             {
-                lblConversion2.Text = conversion2 + " degrees celsius, t is hot outside";
+                lblConversion2.Text = conversion2 + " degrees celsius, it is hot outside";
             }
             if (conversion3 < 32)
             {
@@ -57,7 +57,7 @@ namespace FahrenheitToCelsiusConversion
             }
             if (conversion3 > 32)
             {
-                lblConversion3.Text = conversion3 + " degrees celsius, t is hot outside";
+                lblConversion3.Text = conversion3 + " degrees celsius, it is hot outside";
             }
 
             lblFahrenheitTitle.Visible = true;
