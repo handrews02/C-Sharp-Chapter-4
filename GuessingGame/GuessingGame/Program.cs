@@ -7,10 +7,9 @@ namespace GuessingGame
         static void Main(string[] args)
         {
             int guess;
-            string guessString;
             int min = 1;
             int max = 11;
-            string result = null;
+           
 
             Random ranNumberGenerator = new Random();
             int randomNumber;
